@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 16-03-2022 a las 18:48:30
+-- Tiempo de generación: 21-03-2022 a las 14:19:34
 -- Versión del servidor: 10.4.20-MariaDB
 -- Versión de PHP: 8.0.9
 
@@ -43,7 +43,16 @@ CREATE TABLE `cliente` (
 --
 
 INSERT INTO `cliente` (`id_cliente`, `nombre`, `apellido`, `DNI`, `telefono`, `domicilio`, `edad`, `fecha_nac`) VALUES
-(8, 'Marcelo', 'sapardo', 11895784, 35123456, 'buenos aires', 102, 1920);
+(8, 'Marcelo', 'sapardo', 11895784, 35123456, 'buenos aires', 102, 1920),
+(9, 'Jose', 'Perez', 56678436, 2347685, 'Barrio manzanas rojas, calle bustos ', 12, 2010),
+(10, 'Fernando', 'Cuco', 34893765, 15688734, 'Entre Rios, calle Malvinas', 78, 1945),
+(11, 'Jose', 'Perez', 56678436, 2347685, 'Barrio manzanas rojas, calle bustos ', 12, 2010),
+(12, 'Fernando', 'Cuco', 34893765, 15688734, 'Entre Rios, calle Malvinas', 78, 1945),
+(13, 'Maximo', 'Cosetti', 23785093, 16509834, 'Córdoba, calle Eliseo soaje 908', 54, 1967),
+(14, 'Pepito', 'Pistolero', 34873756, 1216579865, 'misiones, pepe largo', 94, 1926),
+(15, 'Maximo', 'Cosetti', 23785093, 16509834, 'Córdoba, calle Eliseo soaje 908', 54, 1967),
+(16, 'Pepito', 'Pistolero', 34873756, 1216579865, 'misiones, pepe largo', 94, 1926),
+(17, 'Norma', 'Salazar', 89765345, 1569483, 'Jujuy, calle Peron', 79, 1954);
 
 --
 -- Índices para tablas volcadas
@@ -63,7 +72,7 @@ ALTER TABLE `cliente`
 -- AUTO_INCREMENT de la tabla `cliente`
 --
 ALTER TABLE `cliente`
-  MODIFY `id_cliente` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id_cliente` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
